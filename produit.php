@@ -35,6 +35,28 @@
             text-align: center;
         }
 
+        @media (min-width: 992px) {
+            .red{
+                display: none;
+            }
+            .image{
+                margin-top: 10%;
+                margin-right: 20%
+            }
+            
+        }
+
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) {
+            .red{
+                display: none;
+            }
+            .image{
+                margin-top: 10%;
+                margin-right: 20%;
+            }
+        }
+
     </style>
 
 
@@ -51,7 +73,7 @@
                     <?php echo 'Price: €50.99';?>
                 </h4>
             </div>
-                <div class="col-4 offset-1">
+            <div class="col-4 offset-1">
                 <h4>
                     <?php echo 'Stock';?>
                 </h4>
@@ -64,7 +86,7 @@
         <img src="img/img/1.jpg" width="280" href="product.php" action="post">
     </div>
 
-    <div class="container">
+    <div class="container red">
         <div class="row offset-2">
             <div class="col-8">
                 <h5>
@@ -102,7 +124,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container red">
         <div class="row">
             <div class="col-4">
                 <img src="img/img/2.jpg" class="img-fluid" alt="">
